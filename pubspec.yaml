@@ -1,7 +1,7 @@
 name: git_changie
 description: A changelog generator for github.
 version: 0.0.7
-# repository: https://github.com/my_org/my_repo
+epository: https://github.com/Shreemanarjun/git_changie
 
 environment:
   sdk: ^3.5.3

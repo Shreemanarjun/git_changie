@@ -16,7 +16,7 @@ A Dart command-line tool for generating changelogs from Git commit messages, enr
 You can clone the repository and build it locally:
 
 ```bash
-git clone https://github.com/yourusername/git_changie.git
+git clone https://github.com/Shreemanarjun/git_changie.git
 cd git_changie
 dart pub get
 ```
