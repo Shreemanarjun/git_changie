@@ -2,13 +2,103 @@
 
 `git_changie` is a powerful Dart command-line tool designed to simplify the generation of changelogs from Git commit messages while promoting a standardized commit message format. 🚀
 
-## Features 🌟
+# Features 🚀
 
-- **Changelog Generation** 📜: Automatically generates a changelog from your Git commit history.
-- **Emoji Categorization** 😊: Enrich your commit messages with emojis for better organization and clarity.
-- **Easy Tracking** 📈: Keep track of changes in your project effortlessly.
+## General Features 🌟
+- **Changelog Generation**: Automatically generates a changelog from Git commit messages.
+- **Output File Customization**: Specify the output file name (default: `CHANGELOG.md`).
+- **Backup Existing Changelog**: Automatically creates a backup of the existing changelog file before overwriting it.
 
-With `git_changie`, managing your project’s changes has never been easier or more visually appealing! 🌈
+## Command-Line Options 📜
+- `--hash`: Include commit hash in the changelog.
+- `--author`: Include commit author in the changelog.
+- `--date`: Include commit date in the changelog.
+- `--from-tag <tag>`: Generate changelog starting from a specific Git tag.
+- `--to-tag <tag>`: Generate changelog up to a specific Git tag (inclusive).
+- `--since <date>`: Generate changelog starting from a specific date (format: YYYY-MM-DD).
+- `--until <date>`: Generate changelog up to a specific date (format: YYYY-MM-DD).
+- `--output <file>`: Specify the output file name (default: `CHANGELOG.md`).
+- `--add-category <name>`: Add a custom category for commit messages if needed.
+- `--help`: Show help message with usage instructions.
+
+## Emoji Categorization 😊
+- Supports a variety of emoji categories for better organization of commit messages, including:
+  - 🎨 Style
+  - ⚡️ Performance
+  - 🔥 Remove
+  - 🐛 Fixes
+  - 🚑 Critical Hotfix
+  - ✨ Features
+  - 📝 Documentation
+  - 🚀 Deployment
+  - 💄 UI Changes
+  - 🎉 Initial Commit
+  - ✅ Tests
+  - 🔒️ Security
+  - 🔐 Secrets
+  - 🔖 Release Tags
+  - 🚨 Warnings
+  - 🚧 Work In Progress
+  - 💚 CI Build
+  - ⬇️ Downgrade
+  - ⬆️ Upgrade
+  - 📌 Pin Dependencies
+  - 👷 CI System
+  - 📈 Analytics
+  - ♻️ Refactor
+  - ➕ Add Dependency
+  - ➖ Remove Dependency
+  - 🔧 Configuration
+  - 🔨 Development Scripts
+  - 🌐 Internationalization
+  - ✏️ Typos
+  - 💩 Bad Code
+  - ⏪ Revert
+  - 🔀 Merge
+  - 📦 Compiled Files
+  - 👽️ API Changes
+  - 🚚 Move/Rename Resources
+  - 📄 License
+  - 💥 Breaking Changes
+  - 🍱 Assets
+  - ♿️ Accessibility
+  - 💡 Comments
+  - 🍻 Drunken Code
+  - 💬 Text Changes
+  - 🗃️ Database Changes
+  - 🔊 Logs
+  - 🔇 Remove Logs
+  - 👥 Contributors
+  - 🚸 User Experience
+  - 🏗️ Architectural Changes
+  - 📱 Responsive Design
+  - 🤡 Mocking
+  - 🥚 Easter Eggs
+  - 🙈 .gitignore
+  - 📸 Snapshots
+  - ⚗️ Experiments
+  - 🔍 SEO
+  - 🏷️ Types
+  - 🌱 Seed Files
+  - 🚩 Feature Flags
+  - 🥅 Catch Errors
+  - 💫 Animations
+  - 🗑️ Deprecate Code
+  - 🛂 Authorization
+  - 🩹 Minor Fixes
+  - 🧐 Data Inspection
+  - ⚰️ Remove Dead Code
+  - 🧪 Failing Test
+  - 👔 Business Logic
+  - 🩺 Healthcheck
+  - 🧱 Infrastructure
+  - 🧑‍💻 Dev Experience
+  - 💸 Sponsorships
+  - 🧵 Multithreading
+  - 🦺 Validation
+
+With `git_changie`, you can effortlessly track and categorize changes in your project, making collaboration smoother and more organized! 🌈
+
 
 
 ## Installation
@@ -22,7 +112,7 @@ git clone https://github.com/Shreemanarjun/git_changie.git
 cd git_changie
 dart pub get
 ```
-## Activate Globally
+## Activate Globally from `pub.dev`
 
 
 
