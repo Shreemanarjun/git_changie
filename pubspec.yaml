@@ -1,5 +1,5 @@
 name: git_changie
-description: A sample command-line application with basic argument parsing.
+description: A changelog generator for github.
 version: 0.0.7
 # repository: https://github.com/my_org/my_repo
 
