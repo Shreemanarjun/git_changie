@@ -1,7 +1,7 @@
 
-# Contributing to flutter_sharez
+# Contributing to git_changie
 
-Thank you for considering contributing to flutter_sharez! We appreciate your interest in helping us improve our project. Please follow these guidelines to make the contribution process smooth and effective.
+Thank you for considering contributing to git_changie! We appreciate your interest in helping us improve our project. Please follow these guidelines to make the contribution process smooth and effective.
 
 ## Getting Started
 
@@ -9,7 +9,7 @@ Thank you for considering contributing to flutter_sharez! We appreciate your int
 2. Clone the forked repository to your local machine:
 
    ```
-   git clone https://github.com/Shreemanarjun/flutter_sharez
+   git clone https://github.com/Shreemanarjun/git_changie
    ```
 
 3. Create a new branch for your changes:
@@ -47,6 +47,6 @@ Please note that this project is released with a Contributor Code of Conduct. By
 
 If you have any questions or need further assistance, feel free to open an issue or join our community discussions.
 
-Thank you for contributing to flutter_sharez! We appreciate your help in making this project better.
+Thank you for contributing to git_changie! We appreciate your help in making this project better.
 
 Happy Coding!
